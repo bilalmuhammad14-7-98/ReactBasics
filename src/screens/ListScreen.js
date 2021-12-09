@@ -4,13 +4,13 @@ import { Text, View, StyleSheet, FlatList } from "react-native";
 const ListScreen = () => {
   const friends = [
     { name: "Bilal ", age: "20" },
-    { name: "Bilal ", age: "20" },
-    { name: "Bilal ", age: "20" },
-    { name: "Bilal ", age: "20" },
-    { name: "Bilal ", age: "20" },
-    { name: "Bilal ", age: "20" },
-    { name: "Bilal ", age: "20" },
-    { name: "Bilal ", age: "20" },
+    { name: "Bilal ", age: "30" },
+    { name: "Bilal ", age: "40" },
+    { name: "Bilal ", age: "50" },
+    { name: "Bilal ", age: "60" },
+    { name: "Bilal ", age: "70" },
+    { name: "Bilal ", age: "80" },
+    { name: "Bilal ", age: "90" },
   ];
 
   return (
