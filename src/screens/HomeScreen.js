@@ -28,6 +28,30 @@ const HomeScreen = ({ navigation }) => {
         }}
         title="Go to Image Screen"
       />
+
+      <Button
+        onPress={() => {
+          // console.log("Button Pressed");
+          navigation.navigate("Counter");
+        }}
+        title="Go to Counter Screen"
+      />
+
+      <Button
+        onPress={() => {
+          // console.log("Button Pressed");
+          navigation.navigate("Colors");
+        }}
+        title="Go to Colors Screen"
+      />
+
+      <Button
+        onPress={() => {
+          // console.log("Button Pressed");
+          navigation.navigate("Square");
+        }}
+        title="Go to Square Screen"
+      />
       {/* Touchable Opacity */}
 
       {/* <TouchableOpacity
