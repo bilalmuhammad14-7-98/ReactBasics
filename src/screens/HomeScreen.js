@@ -7,7 +7,6 @@ const HomeScreen = ({ navigation }) => {
       <Text style={styles.text}>HomeScreenn</Text>
       <Button
         onPress={() => {
-          // console.log("Button Pressed");
           navigation.navigate("Components");
         }}
         title="Go to Components Demo"
@@ -15,7 +14,6 @@ const HomeScreen = ({ navigation }) => {
 
       <Button
         onPress={() => {
-          // console.log("Button Pressed");
           navigation.navigate("List");
         }}
         title="Go to List Demo"
@@ -23,7 +21,6 @@ const HomeScreen = ({ navigation }) => {
 
       <Button
         onPress={() => {
-          // console.log("Button Pressed");
           navigation.navigate("Image");
         }}
         title="Go to Image Screen"
@@ -31,7 +28,6 @@ const HomeScreen = ({ navigation }) => {
 
       <Button
         onPress={() => {
-          // console.log("Button Pressed");
           navigation.navigate("Counter");
         }}
         title="Go to Counter Screen"
@@ -39,7 +35,6 @@ const HomeScreen = ({ navigation }) => {
 
       <Button
         onPress={() => {
-          // console.log("Button Pressed");
           navigation.navigate("Colors");
         }}
         title="Go to Colors Screen"
@@ -47,7 +42,6 @@ const HomeScreen = ({ navigation }) => {
 
       <Button
         onPress={() => {
-          // console.log("Button Pressed");
           navigation.navigate("Square");
         }}
         title="Go to Square Screen"
@@ -55,10 +49,16 @@ const HomeScreen = ({ navigation }) => {
 
       <Button
         onPress={() => {
-          // console.log("Button Pressed");
           navigation.navigate("Text");
         }}
         title="Go to TextInput Screen"
+      />
+
+      <Button
+        onPress={() => {
+          navigation.navigate("Box");
+        }}
+        title="Go to Box Screen"
       />
       {/* Touchable Opacity */}
 
