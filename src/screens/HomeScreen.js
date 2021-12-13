@@ -52,6 +52,14 @@ const HomeScreen = ({ navigation }) => {
         }}
         title="Go to Square Screen"
       />
+
+      <Button
+        onPress={() => {
+          // console.log("Button Pressed");
+          navigation.navigate("Text");
+        }}
+        title="Go to TextInput Screen"
+      />
       {/* Touchable Opacity */}
 
       {/* <TouchableOpacity
